@@ -80,11 +80,11 @@
 
                 <strong>—James Ngutai, Marketing</strong>
                 <div style="padding-top: 15px;"></div>
-               
+
 
             </div>
             <div class="page-right">
-<!--                <h2>Product and Services</h2>-->
+                <!--                <h2>Product and Services</h2>-->
                 With end to end event design, planning and coordination, we make your brand shine. From conferences and workshops to product launches,
                 company parties and award ceremonies, we take the hassle away and deliver memorable experiences on message, on budget and on time.
                 And what is it all worth, if we don’t do it with a smile?

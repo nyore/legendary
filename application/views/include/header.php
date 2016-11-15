@@ -289,9 +289,12 @@
 
 <style>
     body {
-        background-image: url('<?php echo base_url('media/site_images/site_logo.jpg'); ?>');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+
+        background-image: url('<?php echo base_url('media/site_images/site_logo.jpg'); ?>'), url('<?php echo base_url('media/site_images/site_logo.jpg'); ?>'), url('<?php echo base_url('media/site_images/Untitled.png'); ?>');
+        background-position: left center, right center, center top;
+        background-attachment: fixed, fixed, fixed;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: 30%, 30%, 100% 15%;
     }
 </style>
 
@@ -327,63 +330,6 @@
     <div id="page-wrap">
 
         <header>
-            <div id="contact-dropdown" class="group">
-                <div class="toggle4" id="contact-dropdown-hidden">
-
-                    <div itemscope="" itemtype="http://schema.org/LocalBusiness">
-                        <div id="contact-dropdown-content">
-
-
-                            <h3 id="contact-request-info">Request Information</h3>
-                            <h3 id="contact-phone-number">Call: <span itemprop="telephone">404 869 8858</span></h3>
-                            <div class="clear"></div>
-                            <div role="form" class="wpcf7" id="wpcf7-f1121-o1" dir="ltr" lang="en-US">
-                                <div class="screen-reader-response"></div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="toggle5" id="contact-dropdown-hidden">
-
-                    <div id="contact-dropdown-content">
-
-                        <h3 id="contact-request-info">Join Our Team</h3>
-                        <div class="clear"></div>
-                        <div role="form" class="wpcf7" id="wpcf7-f1157-o2" dir="ltr" lang="en-US">
-                            <div class="screen-reader-response"></div>
-                            <form action="/#wpcf7-f1157-o2" method="post" class="wpcf7-form"
-                                  enctype="multipart/form-data" novalidate="novalidate">
-                                <div style="display: none;">
-                                    <input name="_wpcf7" value="1157" type="hidden">
-                                    <input name="_wpcf7_version" value="4.4.2" type="hidden">
-                                    <input name="_wpcf7_locale" value="en_US" type="hidden">
-                                    <input name="_wpcf7_unit_tag" value="wpcf7-f1157-o2" type="hidden">
-                                    <input name="_wpnonce" value="aef63478a7" type="hidden">
-                                </div>
-
-
-                                <div class="wpcf7-response-output wpcf7-display-none"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-                <div itemscope="" itemtype="http://schema.org/LocalBusiness">
-                    <div id="contact-dropdown-links">
-                        <a class="contact-dropdown-box" href="#" id="toggle4">
-                            <span class="contact-dropdown-links-box">Contact</span></a><span
-                            class="contact-dropdown-links-box contact-dropdown-links-box-dark"><span
-                                itemprop="telephone">0729 590 469 / 0720 919 595</span></span><a class="contact-dropdown-box" href="#"
-                                                                                  id="toggle5"><span
-                                class="contact-dropdown-links-box"></span></a>
-                    </div>
-                </div>
-
-                <div class="group">&nbsp;</div>
-
-            </div>
 
             <div id="logo"><a href="<?php echo base_url(); ?>">A Naska Events and Creations</a></div>
 
@@ -392,19 +338,24 @@
                     <ul id="menu-menu-1" class="menu">
                         <li id="menu-item-86"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a
-                                href="<?php echo base_url('home'); ?>">Home</a></li>
+                                href="<?php echo base_url('home'); ?>"
+                                style="color: purple; font-weight: bolder;">Home</a></li>
                         <li id="menu-item-96"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a
-                                href="<?php echo base_url('services'); ?>">Our Services</a></li>
+                                href="<?php echo base_url('services'); ?>" style="color: purple; font-weight: bolder;">Our
+                                Services</a></li>
                         <li id="menu-item-98"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a
-                                href="<?php echo base_url('our_story'); ?>">About Us</a></li>
+                                href="<?php echo base_url('our_story'); ?>" style="color: purple; font-weight: bolder;">About
+                                Us</a></li>
                         <li id="menu-item-164"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-164"><a
-                                title="The Estate"  href="<?php echo base_url('photo'); ?>">Gallery</a></li>
+                                title="The Estate" href="<?php echo base_url('photo'); ?>"
+                                style="color: purple; font-weight: bolder;">Gallery</a></li>
                         <li id="menu-item-9071"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9071"><a
-                                title="Flourish"  href="<?php echo base_url('contact_us'); ?>">Contact Us</a>
+                                title="Flourish" href="<?php echo base_url('contact_us'); ?>"
+                                style="color: purple; font-weight: bolder;">Contact Us</a>
                         </li>
 
                     </ul>
